@@ -1,0 +1,151 @@
+/* Estilos gerais */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #f0f4f8; /* Um cinza azulado claro */
+}
+
+/* Menu de navegação */
+nav {
+    background-color: #0056b3; /* Azul escuro */
+    text-align: center;
+    border-radius: 15px;
+    border: 1px solid #004494;
+    display: inline-block;
+    overflow: hidden;
+}
+
+nav a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #007bff; /* Azul mais claro no hover */
+    color: white;
+}
+
+/* Conteúdo principal */
+main {
+    max-width: 960px; /* Define uma largura máxima para o conteúdo */
+    margin: 20px auto; /* Centraliza o conteúdo na página */
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h1 {
+    color: #0056b3;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Formulário de Contato */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #0056b3; /* Borda azul */
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #0056b3; /* Botão azul */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #004494; /* Azul mais escuro no hover */
+}
+
+/* Seção de Hobbies */
+.secao-hobby {
+    border: 1px solid #0056b3; /* Borda azul na caixa */
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center; /* Centraliza texto e imagem */
+}
+
+.imagem-hobby {
+    max-width: 80%; /* Imagem ocupa 80% da caixa */
+    height: auto;
+    border-radius: 8px;
+    margin-top: 15px; /* Espaço entre o texto e a imagem */
+    border: 2px solid #0056b3; /* Borda azul na imagem */
+}
+
+.secao-formacao {
+    border: 1px solid #0056b3; /* Borda azul na caixa */
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center; /* Centraliza texto e imagem */
+}
+
+.secao-projeto {
+    border: 1px solid #0056b3; /* Borda azul na caixa */
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center; /* Centraliza texto e imagem */
+}
+
+.imagem-projeto {
+    max-width: 80%; /* Imagem ocupa 80% da caixa */
+    height: auto;
+    border-radius: 8px;
+    margin-top: 15px; /* Espaço entre o texto e a imagem */
+    border: 2px solid #0056b3; /* Borda azul na imagem */
+}
+
+.botao-download {
+    background-color: #0056b3; /* Botão azul */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.botao-download:hover {
+    background-color: #004494; /* Azul mais escuro no hover */
+}
+
+.descricao-imagem {
+    font-size: 0.9em;
+    font-style: italic;
+    color: #666;
+    margin-top: 5px;
+}
